@@ -1,0 +1,163 @@
+{
+  "common": {
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "loading": "Loading…",
+    "on": "On",
+    "off": "Off",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "userId": "User ID"
+  },
+  "language": {
+    "label": "Language",
+    "triggerLabel": "Language: {{language}}",
+    "followSystem": "System",
+    "followSystemWithLanguage": "System ({{language}})",
+    "enUS": "English",
+    "zhCN": "中文"
+  },
+  "errors": {
+    "notFound": {
+      "code": "404",
+      "title": "Page not found",
+      "description": "The page you're looking for doesn't exist or may have been moved.",
+      "backHome": "Back to home"
+    },
+    "generic": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. You can try again or return to the home page.",
+      "tryAgain": "Try again",
+      "backHome": "Back to home"
+    }
+  },
+  "app": {
+    "eyebrow": "Moji · Habit building",
+    "title": "Warm Timeline",
+    "brandName": "Moji",
+    "tagline": "Start from the smallest step",
+    "nav": {
+      "timeline": "Timeline",
+      "habits": "Habits",
+      "reflect": "Reflect",
+      "saved": "My plans"
+    }
+  },
+  "nodes": {
+    "wake": "Wake up",
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "workout": "Workout",
+    "dinner": "Dinner",
+    "bedtime": "Bedtime"
+  },
+  "timeline": {
+    "summary": "Up at {{wake}} · sleep {{sleep}}",
+    "aiTag": "AI notes",
+    "wakeLabel": "Wake time",
+    "sleepLabel": "Sleep length",
+    "workoutLabel": "Workout time",
+    "workout": {
+      "morning": "AM",
+      "noon": "Noon",
+      "evening": "PM"
+    },
+    "regenerate": "Regenerate",
+    "generating": "Planning…",
+    "rationaleLoading": "Writing the science notes…",
+    "save": "Save this plan",
+    "saved": "Saved",
+    "saveHint": "Sign in to save this routine so it's here next time.",
+    "conflictTitle": "Adjusted for you",
+    "hours": "{{h}}h"
+  },
+  "saved": {
+    "title": "My routines",
+    "subtitle": "Routines you save show up here, ready to load anytime.",
+    "empty": "No saved plans yet. Head to the timeline to create and save one.",
+    "signInPrompt": "Sign in to save and view your routines.",
+    "signInCta": "Sign in",
+    "load": "Load",
+    "delete": "Delete",
+    "current": "Loaded",
+    "savedAt": "Saved {{date}}",
+    "meta": "Up at {{wake}} · {{sleep}}h sleep · {{workout}} workout",
+    "deleteConfirm": "Delete this routine?",
+    "goTimeline": "Create a plan"
+  },
+  "toast": {
+    "saveSuccess": "Routine saved",
+    "saveError": "Save failed, please try again",
+    "deleteSuccess": "Deleted",
+    "deleteError": "Delete failed, please try again",
+    "loadError": "Failed to load, please try again",
+    "loadSuccess": "Routine loaded"
+  },
+  "habits": {
+    "title": "My habits",
+    "subtitle": "Start with the smallest step, check in daily, and watch your streak grow.",
+    "signInPrompt": "Sign in to create habits and check in every day.",
+    "empty": "No habits yet. Add your first one and start small.",
+    "addCta": "Add habit",
+    "add": "Add",
+    "todayDone": "Done today",
+    "checkIn": "Check in",
+    "streak": "{{days}}-day streak",
+    "streakZero": "Start your streak today",
+    "target": "{{amount}} {{unit}} / day",
+    "deleteConfirm": "Delete this habit and its check-in history?",
+    "createTitle": "Add a habit",
+    "nameLabel": "Habit name",
+    "namePlaceholder": "e.g. Vocabulary, Squats, Reading",
+    "amountLabel": "Daily target",
+    "unitLabel": "Unit",
+    "unitPlaceholder": "words / min / times",
+    "iconLabel": "Icon",
+    "minHint": "Start small so it's easy to keep, then increase gradually.",
+    "presetTitle": "Quick add",
+    "toastCreated": "Habit added",
+    "toastCreateError": "Failed to add, please try again",
+    "toastDeleted": "Habit deleted",
+    "toastCheckIn": "Checked in, keep it up!",
+    "toastError": "Action failed, please try again",
+    "bumpTitle": "{{days}} days strong!",
+    "bumpSuggest": "Bump the goal to {{amount}} {{unit}}?",
+    "bumpAccept": "Accept",
+    "bumpTooHard": "Too hard",
+    "toastBumped": "Leveled up, one step at a time!",
+    "toastEased": "Eased off — let's solidify the basics first",
+    "aiCta": "AI: break down a goal",
+    "aiTitle": "Break a big goal into tiny habits",
+    "aiSubtitle": "Enter a bigger goal and AI splits it into small daily habits you can actually finish.",
+    "aiGoalPlaceholder": "e.g. Get good at English, run a half marathon, write daily",
+    "aiGenerate": "Break it down",
+    "aiGenerating": "Breaking down…",
+    "aiResultTitle": "Suggested tiny habits (editable)",
+    "aiFallbackHint": "AI is unavailable; used a built-in template for you.",
+    "aiAddAll": "Add all ({{count}})",
+    "aiEmpty": "No suggestions — try rephrasing your goal.",
+    "aiRemove": "Remove",
+    "toastAiAdded": "Added {{count}} tiny habits",
+    "toastAiError": "Breakdown failed, please retry",
+    "pendingBannerAll": "{{count}} tiny habits still pending today — knock one out now 💪",
+    "pendingBannerDone": "All tiny habits done for today. Amazing! 🎉",
+    "pendingJump": "Do it"
+  },
+  "reflect": {
+    "title": "Today's reflection",
+    "subtitle": "Write down how today felt and where you got stuck — I'm here with you.",
+    "signInPrompt": "Sign in to write reflections and revisit them anytime.",
+    "empty": "Say whatever's on your mind today. Done it, didn't, tired, frustrated — it all deserves to be taken seriously.",
+    "placeholder": "Write how today felt…",
+    "send": "Send",
+    "sending": "Thinking about how to reply…",
+    "today": "Today",
+    "historyTitle": "Past reflections",
+    "noHistory": "No past reflections yet.",
+    "intro": "A habit just means doing something has become the path of least resistance for you. Missing it is normal — let's look at what's affecting you, instead of blaming yourself.",
+    "toastError": "Failed to send, please retry"
+  }
+}

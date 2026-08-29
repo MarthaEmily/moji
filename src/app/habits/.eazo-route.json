@@ -1,0 +1,8 @@
+{
+  "route": "habits",
+  "name": "习惯",
+  "nav_type": "tab",
+  "order_index": 1,
+  "icon": "circle-check-big",
+  "summary": "创建习惯、每日打卡、查看连续天数"
+}

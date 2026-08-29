@@ -1,0 +1,163 @@
+{
+  "common": {
+    "signIn": "登录",
+    "signOut": "退出登录",
+    "loading": "加载中…",
+    "on": "开",
+    "off": "关",
+    "close": "关闭",
+    "save": "保存",
+    "cancel": "取消",
+    "edit": "编辑",
+    "delete": "删除",
+    "userId": "用户 ID"
+  },
+  "language": {
+    "label": "语言",
+    "triggerLabel": "语言：{{language}}",
+    "followSystem": "跟随系统",
+    "followSystemWithLanguage": "跟随系统（{{language}}）",
+    "enUS": "English",
+    "zhCN": "中文"
+  },
+  "errors": {
+    "notFound": {
+      "code": "404",
+      "title": "页面未找到",
+      "description": "你访问的页面不存在，或已被移动。",
+      "backHome": "返回首页"
+    },
+    "generic": {
+      "title": "出了点问题",
+      "description": "发生了意外错误。你可以重试，或返回首页继续。",
+      "tryAgain": "重试",
+      "backHome": "返回首页"
+    }
+  },
+  "app": {
+    "eyebrow": "莫急 · 习惯养成",
+    "title": "暖光时轴",
+    "brandName": "莫急",
+    "tagline": "从最小的一步开始",
+    "nav": {
+      "timeline": "时轴",
+      "habits": "习惯",
+      "reflect": "心得",
+      "saved": "我的方案"
+    }
+  },
+  "nodes": {
+    "wake": "起床",
+    "breakfast": "早餐",
+    "lunch": "午餐",
+    "workout": "健身",
+    "dinner": "晚餐",
+    "bedtime": "上床"
+  },
+  "timeline": {
+    "summary": "{{wake}} 起 · 睡 {{sleep}}",
+    "aiTag": "AI 依据",
+    "wakeLabel": "起床时间",
+    "sleepLabel": "睡眠时长",
+    "workoutLabel": "健身偏好",
+    "workout": {
+      "morning": "早",
+      "noon": "午",
+      "evening": "晚"
+    },
+    "regenerate": "重新生成",
+    "generating": "推理中…",
+    "rationaleLoading": "正在生成科学依据…",
+    "save": "保存这份方案",
+    "saved": "已保存",
+    "saveHint": "登录后即可把这份作息保存下来，下次打开还在。",
+    "conflictTitle": "已为你微调",
+    "hours": "{{h}} 小时"
+  },
+  "saved": {
+    "title": "我的作息方案",
+    "subtitle": "登录后保存的作息会显示在这里，随时载入。",
+    "empty": "还没有保存的方案。回到时轴生成一份并保存吧。",
+    "signInPrompt": "登录后即可保存和查看你的作息方案。",
+    "signInCta": "登录",
+    "load": "载入",
+    "delete": "删除",
+    "current": "当前载入",
+    "savedAt": "保存于 {{date}}",
+    "meta": "{{wake}} 起 · 睡 {{sleep}}h · {{workout}}练",
+    "deleteConfirm": "确定删除这份方案吗？",
+    "goTimeline": "去生成方案"
+  },
+  "toast": {
+    "saveSuccess": "方案已保存",
+    "saveError": "保存失败，请稍后重试",
+    "deleteSuccess": "已删除",
+    "deleteError": "删除失败，请重试",
+    "loadError": "载入失败，请重试",
+    "loadSuccess": "已载入这份方案"
+  },
+  "habits": {
+    "title": "我的习惯",
+    "subtitle": "从最小的一步开始，每天打卡，坚持会累积成连续天数。",
+    "signInPrompt": "登录后即可创建习惯并每天打卡。",
+    "empty": "还没有习惯。添加第一个，从很小的目标开始吧。",
+    "addCta": "添加习惯",
+    "add": "添加",
+    "todayDone": "今日已完成",
+    "checkIn": "打卡",
+    "streak": "连续 {{days}} 天",
+    "streakZero": "今天开始坚持",
+    "target": "每天 {{amount}} {{unit}}",
+    "deleteConfirm": "确定删除这个习惯及其打卡记录吗？",
+    "createTitle": "添加习惯",
+    "nameLabel": "习惯名称",
+    "namePlaceholder": "例如：背单词、深蹲、阅读",
+    "amountLabel": "每日目标量",
+    "unitLabel": "单位",
+    "unitPlaceholder": "个 / 分钟 / 次",
+    "iconLabel": "图标",
+    "minHint": "建议从很小的量起步，容易坚持，之后再慢慢加。",
+    "presetTitle": "快速添加",
+    "toastCreated": "习惯已添加",
+    "toastCreateError": "添加失败，请重试",
+    "toastDeleted": "习惯已删除",
+    "toastCheckIn": "打卡成功，继续保持！",
+    "toastError": "操作失败，请重试",
+    "bumpTitle": "你已经坚持 {{days}} 天！",
+    "bumpSuggest": "试试把目标提到 {{amount}} {{unit}}？",
+    "bumpAccept": "采纳",
+    "bumpTooHard": "有点难",
+    "toastBumped": "已加量，一步一步变强！",
+    "toastEased": "已放缓节奏，先把基础打牢",
+    "aiCta": "AI 拆解大目标",
+    "aiTitle": "把大目标拆成小习惯",
+    "aiSubtitle": "输入一个较大的目标，AI 帮你拆成每天能完成的小习惯。",
+    "aiGoalPlaceholder": "例如：学好英语、跑一场半马、坚持写作",
+    "aiGenerate": "开始拆解",
+    "aiGenerating": "拆解中…",
+    "aiResultTitle": "建议的小习惯（可编辑）",
+    "aiFallbackHint": "AI 暂不可用，已用内置模板为你拆解。",
+    "aiAddAll": "全部添加（{{count}}）",
+    "aiEmpty": "没有生成建议，换个说法再试试。",
+    "aiRemove": "移除",
+    "toastAiAdded": "已添加 {{count}} 个小习惯",
+    "toastAiError": "拆解失败，请重试",
+    "pendingBannerAll": "今天还有 {{count}} 个小习惯没打卡，现在完成一个吧 💪",
+    "pendingBannerDone": "今天的小习惯都完成啦，太棒了！🎉",
+    "pendingJump": "去完成"
+  },
+  "reflect": {
+    "title": "今日心得",
+    "subtitle": "写下今天的感受和卡点，我在这儿陪你一起看。",
+    "signInPrompt": "登录后即可写心得，并随时回看历史。",
+    "empty": "今天想聊点什么都可以。做到了、没做到、累了、烦了——都值得被认真对待。",
+    "placeholder": "写下今天的感受…",
+    "send": "发送",
+    "sending": "在想怎么回你…",
+    "today": "今天",
+    "historyTitle": "历史心得",
+    "noHistory": "还没有历史心得。",
+    "intro": "习惯只是让一件事对你变成阻力最小的选择。没做到很正常，我们一起看看是什么在影响你，而不是怪自己。",
+    "toastError": "发送失败，请重试"
+  }
+}

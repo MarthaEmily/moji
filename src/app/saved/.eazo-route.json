@@ -1,0 +1,8 @@
+{
+  "route": "saved",
+  "name": "我的方案",
+  "nav_type": "tab",
+  "order_index": 1,
+  "icon": "bookmark",
+  "summary": "登录后保存与载入历史作息方案"
+}

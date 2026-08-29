@@ -1,0 +1,8 @@
+{
+  "route": "",
+  "name": "时轴",
+  "nav_type": "tab",
+  "order_index": 0,
+  "icon": "sunrise",
+  "summary": "输入作息参数并查看推理生成的一日时间轴"
+}
