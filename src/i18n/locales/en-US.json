@@ -228,5 +228,31 @@
     "noHistory": "No past reflections yet.",
     "intro": "A habit just means doing something has become the path of least resistance for you. Missing it is normal — let's look at what's affecting you, instead of blaming yourself.",
     "toastError": "Failed to send, please retry"
+  },
+  "legal": {
+    "entry": "Privacy Policy & Terms",
+    "back": "Back",
+    "updated": "Last updated: August 2026",
+    "privacyTitle": "Privacy Policy",
+    "privacyIntro": "Moji respects and protects your privacy. This policy explains what we collect, how we use and protect it, and the rights you have.",
+    "privacySections": [
+      { "h": "What we collect", "p": "To provide the service we collect only what's necessary: your login account identifier, the habits and goals you create, your daily check-ins, saved routines, and what you write in Today's Reflection. We do not collect sensitive personal information unrelated to the features." },
+      { "h": "How we use it", "p": "This data is used only to show and sync your own habits, goals, and progress so the app works for you. We never sell your personal content or use it for purposes unrelated to this service." },
+      { "h": "Storage & security", "p": "Data is stored in a protected managed database and transmitted over HTTPS. Each user's data is strictly isolated by account — you cannot access others' data, and others cannot access yours. Login and passwords are securely handled by the platform." },
+      { "h": "Third-party services", "p": "The app relies on cloud hosting and a login service to run. The companion in Today's Reflection may call an AI service to process the text you enter, solely to generate an immediate response." },
+      { "h": "Your rights", "p": "You may view, edit, or delete the habits, goals, routines, and reflections you created. To delete all your data or close your account, contact us at emily.zhang8@outlook.com." },
+      { "h": "Minors", "p": "This service is intended for adult users; if you are under the age of majority, please use it under a guardian's guidance." },
+      { "h": "Changes", "p": "This policy may be updated from time to time; significant changes will be noted in the app. Continued use means you accept the updated policy." }
+    ],
+    "termsTitle": "Terms of Service",
+    "termsIntro": "By using Moji, you agree to the following terms.",
+    "termsSections": [
+      { "h": "About the service", "p": "Moji is a tool that helps you build habits gently, starting from the smallest step — offering a daily timeline, habit check-ins, staged goals, and warm companionship. It does not provide medical, psychological, or professional health advice and is not a substitute for professional diagnosis or treatment." },
+      { "h": "Account & responsibility", "p": "Please keep your login account safe. You are responsible for the content and actions under your account, and must not upload illegal, infringing, or offensive content." },
+      { "h": "Content ownership", "p": "The habits, goals, and reflections you create are yours; you authorize us to store and process this content only as needed to provide the service to you." },
+      { "h": "Disclaimer", "p": "We strive to keep the service stable but cannot guarantee it will never be interrupted or entirely error-free. To the extent permitted by law, we are not liable for issues caused by force majeure or third-party services." },
+      { "h": "Changes & termination", "p": "We may adjust, suspend, or discontinue some features; significant changes will be announced in advance where possible. You may also stop using the service and delete your data at any time." },
+      { "h": "Contact us", "p": "For any questions about privacy or these terms, please contact us at emily.zhang8@outlook.com." }
+    ]
   }
 }

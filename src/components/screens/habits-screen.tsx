@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 import { Plus, Sparkles, Target } from "lucide-react";
@@ -268,6 +269,16 @@ export function HabitsScreen() {
             </ul>
           </>
         ) : null}
+
+        <footer className="mt-2 pt-2 text-center">
+          <Link
+            href="/legal"
+            data-el="legal-link"
+            className="text-[11px] font-medium text-muted-foreground/70 underline-offset-2 transition hover:text-muted-foreground hover:underline"
+          >
+            {t("legal.entry")}
+          </Link>
+        </footer>
       </main>
 
       {user && (

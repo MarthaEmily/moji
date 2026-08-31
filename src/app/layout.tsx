@@ -51,7 +51,13 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
   icons: {
     icon: "/logo.png",
-    apple: "/logo.png",
+    apple: "/icons/apple-touch-icon.png",
+  },
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    title: SITE_TITLE,
+    statusBarStyle: "default",
   },
   openGraph: {
     type: "website",
@@ -74,6 +80,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
+  themeColor: "#E88040",
 };
 
 export default async function RootLayout({

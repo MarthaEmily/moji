@@ -60,7 +60,7 @@ export function SplashScreen() {
         <div className="cc-splash-breathe">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/logo.png"
+            src="/logo-cat.png"
             alt={t("app.brandName")}
             width={148}
             height={148}

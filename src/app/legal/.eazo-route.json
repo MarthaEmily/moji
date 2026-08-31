@@ -1,0 +1,9 @@
+{
+  "route": "legal",
+  "name": "隐私与协议",
+  "nav_type": "stack",
+  "parent": "",
+  "order_index": 5,
+  "icon": "shield",
+  "summary": "隐私政策与用户协议"
+}

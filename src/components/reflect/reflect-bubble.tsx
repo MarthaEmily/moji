@@ -32,10 +32,11 @@ export function ReflectBubble() {
           <div className="flex shrink-0 items-center gap-2.5 border-b border-[rgba(0,0,0,0.05)] bg-white/50 px-3 py-2.5">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/logo.png"
+              src="/logo-cat.png"
               alt="莫急"
               width={36}
               height={36}
+              loading="eager"
               className="h-9 w-9 rounded-full object-cover shadow-[0_4px_12px_rgba(232,128,64,0.25)]"
             />
             <div className="min-w-0 flex-1">
@@ -77,10 +78,11 @@ export function ReflectBubble() {
           <>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/logo.png"
+              src="/logo-cat.png"
               alt="莫急"
               width={56}
               height={56}
+              loading="eager"
               className="h-full w-full rounded-full object-cover"
             />
             <span className="cc-bubble-breathe pointer-events-none absolute inset-0 rounded-full ring-2 ring-primary/30" />

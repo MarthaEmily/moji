@@ -48,6 +48,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local build/export artifacts (not shipped)
+/public/moji-source.zip
+/public/icons/icon-source.png
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
