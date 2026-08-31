@@ -1,0 +1,1 @@
+ALTER TABLE "goals" ADD COLUMN "start_level" text DEFAULT '' NOT NULL;

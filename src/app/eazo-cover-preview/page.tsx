@@ -54,8 +54,23 @@ export default function CoverPreview() {
         />
 
         <div className="relative">
-          <div className="text-xs font-bold uppercase tracking-[0.1em] text-muted-foreground">
-            生物钟教练
+          <div className="mb-5 flex items-center gap-3">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo.png"
+              alt="莫急"
+              width={56}
+              height={56}
+              className="h-14 w-14 rounded-[18px] object-cover shadow-[0_10px_28px_rgba(232,128,64,0.28)]"
+            />
+            <div>
+              <div className="text-2xl font-bold leading-none tracking-tight text-foreground">
+                莫急
+              </div>
+              <div className="mt-1 text-xs font-semibold text-muted-foreground">
+                从最小的一步开始
+              </div>
+            </div>
           </div>
           <h1 className="mt-1 mb-5 text-3xl font-bold tracking-tight text-foreground">
             睡 {sleepHours} 小时的一天

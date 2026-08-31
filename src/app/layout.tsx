@@ -10,6 +10,7 @@ import { I18nProvider } from "@/components/i18n/i18n-provider";
 import { LocaleSyncEffect } from "@/components/i18n/locale-sync-effect";
 import { PreviewInspector } from "@/components/eazo/preview-inspector";
 import { SplashScreen } from "@/components/brand/splash-screen";
+import { ReflectBubble } from "@/components/reflect/reflect-bubble";
 import { getServerLocale } from "@/lib/i18n/server-preference";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
@@ -98,6 +99,7 @@ export default async function RootLayout({
             <UserSyncEffect />
             {children}
             <SplashScreen />
+            <ReflectBubble />
             <Toaster />
             {INSPECTOR_ENABLED && <PreviewInspector />}
           </EazoProvider>

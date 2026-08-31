@@ -3,14 +3,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTranslation } from "react-i18next";
-import { Sunrise, Bookmark, CircleCheckBig, MessageCircleHeart } from "lucide-react";
+import { Sunrise, CircleCheckBig } from "lucide-react";
 import { usePendingCount } from "@/lib/habits/pending-store";
 
 const TABS = [
-  { href: "/", key: "timeline", Icon: Sunrise },
-  { href: "/habits", key: "habits", Icon: CircleCheckBig },
-  { href: "/reflect", key: "reflect", Icon: MessageCircleHeart },
-  { href: "/saved", key: "saved", Icon: Bookmark },
+  { href: "/", key: "habits", Icon: CircleCheckBig },
+  { href: "/timeline", key: "timeline", Icon: Sunrise },
 ] as const;
 
 export function TabBar() {
